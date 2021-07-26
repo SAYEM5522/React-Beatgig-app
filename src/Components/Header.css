@@ -1,0 +1,79 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1d1e21;
+  height: 70px;
+}
+.header__left__image {
+  width: 160px;
+  height: 36px;
+  margin-left: 17px;
+  resize: cover;
+}
+.header__middle {
+  width: 500px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: #000000;
+  border-width: 0px;
+  left: -100px;
+  position: relative;
+}
+.header__middle__input {
+  background-color: transparent;
+  width: 500px;
+  height: 45px;
+  outline: 0;
+  color: white;
+  border-width: 0px;
+}
+.header__middle__input::placeholder {
+  color: gray;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.MuiSvgIcon-root {
+  color: white;
+  position: absolute;
+  left: 5px;
+  top: 14px;
+}
+.header__right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+.header__right > .header__right__list {
+  margin-left: -305px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: row;
+}
+.header__right > .header__right__list > .MuiSvgIcon-root {
+  position: absolute;
+  margin-left: 75px;
+  top: -1px;
+}
+.header__right__list > h3 {
+  color: white;
+  font-size: 20px;
+}
+.header__right > h3 {
+  padding: 6px 15px;
+  background-color: yellow;
+  border-radius: 30px;
+  top: -10px;
+  margin-left: 44px;
+}
+.header__right > .MuiSvgIcon-root {
+  left: -60px;
+  top: 0px;
+  padding: 6px;
+  border: 1px solid white;
+  border-radius: 30px;
+}

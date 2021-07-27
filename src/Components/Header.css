@@ -4,6 +4,10 @@
   justify-content: space-between;
   background-color: #1d1e21;
   height: 70px;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  width: 100%;
 }
 .header__left__image {
   width: 160px;

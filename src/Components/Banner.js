@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Banner.css"
+import BannerInfo from './BannerInfo'
 const Banner = () => {
   return (
     <div className="banner">
@@ -13,7 +14,7 @@ const Banner = () => {
       </div>
       </div>
       <div className="banner__info" >
-       
+       <BannerInfo/>
       </div>
     
     </div>

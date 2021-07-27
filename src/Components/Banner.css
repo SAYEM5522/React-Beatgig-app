@@ -24,6 +24,7 @@
   font-family: CircularStd-Bold, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Helvetica, Arial, sans-serif;
   font-weight: 720;
+  background-clip: text;
 }
 .banner__descriptions {
   font-size: 30px;

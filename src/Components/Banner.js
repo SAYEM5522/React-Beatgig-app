@@ -13,7 +13,7 @@ const Banner = () => {
       </div>
       </div>
       <div className="banner__info" >
-      
+       
       </div>
     
     </div>

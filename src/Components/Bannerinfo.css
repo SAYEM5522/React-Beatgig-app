@@ -55,16 +55,60 @@
   width: 230px;
   height: 480px;
   border: 6px solid white;
-  border-radius: 50px;
+  border-radius: 40px;
   margin-left: -40px;
+  background-color: #000000;
 }
 .bannerinfo__body__info {
   padding-top: 20px;
+  display: flex;
+  flex-direction: row;
 }
 .bannerinfo__body__left-image {
   width: 230px;
   height: 180px;
   object-fit: cover;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+  border-top-left-radius: 36px;
+  border-top-right-radius: 36px;
+}
+.bannerinfo__body__left > h4 {
+  font-size: 25px;
+  font-family: CircularStd-Bold, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
+.bannerinfo__body__left-price {
+  font-family: CircularStd-Bold, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  color: rgb(0, 200, 6);
+  text-align: center;
+  font-size: 19px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.bannerinfo__body__left-rating {
+  display: inline;
+  flex-direction: row;
+  font-size: 20px;
+}
+.bannerinfo__body__left-button {
+  height: 30px;
+  width: 190px;
+  background-color: yellow;
+  margin-left: 20px;
+  border-radius: 40px;
+  text-align: center;
+  margin-top: 5px;
+}
+.bannerinfo__body__right-text {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 16px;
+  margin-left: 20px;
+  font-family: CircularStd-Bold, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  width: 300px;
+  margin-top: 10px;
 }

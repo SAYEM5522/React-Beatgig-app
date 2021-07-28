@@ -1,6 +1,8 @@
 .App {
   padding: 0px;
   overflow: scroll;
+  background-color: #000000;
+  height: 100%;
 }
 .App::-webkit-scrollbar {
   display: none;

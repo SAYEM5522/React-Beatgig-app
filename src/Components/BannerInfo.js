@@ -23,9 +23,21 @@ const BannerInfo = () => {
         className="bannerinfo__body__left-image"
         src="https://res.cloudinary.com/dn29xlaeh/image/upload/q_50,h_576/v1/beatgig-prod/g2gs4co6gmgud38lj7zl"
         />
+        <h4>Loud Luxury</h4>
+        <h3 className="bannerinfo__body__left-price">$30,000</h3>
+        <div style={{marginLeft:'55px'}}>
+        {
+            Array(5).
+            fill().map((v,i)=>
+            <span key={i} className="bannerinfo__body__left-rating" >⭐</span>
+            )
+          }
+        </div>
+        <h3 className="bannerinfo__body__left-button">Book</h3>
+       
         </div>
         <div className="bannerinfo__body__right">
-
+          <h1 className="bannerinfo__body__right-text">Example Loud Luxury Booking</h1>
         </div>
         </div>
       </div>

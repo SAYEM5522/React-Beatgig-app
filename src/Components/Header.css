@@ -5,7 +5,7 @@
   background-color: #1d1e21;
   height: 70px;
   position: fixed;
-  z-index: 1;
+  z-index: 1000;
   top: 0px;
   width: 100%;
 }

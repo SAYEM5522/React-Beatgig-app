@@ -43,7 +43,6 @@
   font-size: 25px;
   font-weight: bold;
   bottom: 17px;
-  z-index: 1000;
   left: 20px;
 }
 .video__poster > .video__image__icon {

@@ -3,7 +3,7 @@ import ArtistBanner from './Artist/ArtistBanner'
 
 const Artist = () => {
   return (
-    <div >
+    <div className="artist" >
      <ArtistBanner/>
     </div>
   )

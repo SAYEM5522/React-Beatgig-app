@@ -1,9 +1,10 @@
 import React from 'react'
+import ArtistBanner from './Artist/ArtistBanner'
 
 const Artist = () => {
   return (
-    <div>
-      <h1>artist</h1>
+    <div >
+     <ArtistBanner/>
     </div>
   )
 }

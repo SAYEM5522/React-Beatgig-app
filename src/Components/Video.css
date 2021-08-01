@@ -2,34 +2,38 @@
   color: white;
   font-size: 33px;
   font-weight: bold;
-  margin-left: 50px;
+  margin-left: 65px;
   margin-bottom: 5px;
+  margin-top: 5px;
 }
 .video__image {
   height: 360px;
   width: 260px;
   object-fit: cover;
-  padding-left: 6px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  border-radius: 15px;
   transition: transform 0.4s;
+  border-radius: 15px;
 }
 .video__posters {
   display: flex;
   overflow-y: hidden;
   overflow-x: scroll;
-  margin-left: 20px;
+  margin-left: 55px;
   margin-top: -10px;
 }
 .video__posters::-webkit-scrollbar {
   display: none;
 }
 .video__image:hover {
-  transform: scale(1.03);
+  transform: scale(1.025);
 }
 .video__poster {
   height: 360px;
   width: 260px;
-  padding: 5px;
+  padding: 5px 3px;
+  position: relative;
+}
+.video__poster > .MuiSvgIcon-root {
+  left: auto;
+  right: 20px;
+  margin-top: -3px;
 }

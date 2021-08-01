@@ -3,11 +3,17 @@ import "./Header.css"
 import SearchIcon from '@material-ui/icons/Search';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MenuIcon from '@material-ui/icons/Menu';
+import { useHistory } from 'react-router';
 const Header = () => {
+  const history=useHistory();
+  const onClick=()=>{
+    history.push("./")
+  }
   return (
     <div className="header">
       <div className="header__left">
       <img
+      onClick={onClick}
       className="header__left__image"
       src="https://beatgig.com/_next/static/images/beatgig-256-a2ce12989084a7604b2cb2994e29fccb.png"
       alt=""

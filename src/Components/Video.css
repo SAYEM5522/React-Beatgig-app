@@ -3,8 +3,8 @@
   font-size: 33px;
   font-weight: bold;
   margin-left: 65px;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-top: 6px;
 }
 .video__image {
   height: 360px;
@@ -32,8 +32,31 @@
   padding: 5px 3px;
   position: relative;
 }
-.video__poster > .MuiSvgIcon-root {
+.video__poster > .video__image__react {
   left: auto;
   right: 20px;
   margin-top: -3px;
+}
+.video__poster > .video__image__title {
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  bottom: 17px;
+  z-index: 1000;
+  left: 20px;
+}
+.video__poster > .video__image__icon {
+  width: 40px;
+  height: 25px;
+  background-color: rgb(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 20px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.video__image__icon {
+  color: white;
 }

@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import { useHistory } from 'react-router';
 import "./Video.css"
+
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 const data=[
   {
       id:'1',
-      img:"https://res.cloudinary.com/dn29xlaeh/image/upload/q_75,w_300/v1/beatgig-updated/6bfRYZqcGu5FVQSp4SakfWkcF9eQd0",
+      img:"https://res.cloudinary.com/dn29xlaeh/image/upload/q_75,w_300/v1/beatgig-updated/irojobcsusv5hxgdq5ai",
       name:'Key Glock'
   },
   {
@@ -52,7 +53,13 @@ const Video = ({title}) => {
             key={item.id}
             className="video__image"
             />
-            <FavoriteBorderIcon color="red"/>
+            <FavoriteBorderIcon className="video__image__react" color="red"/>
+            <div className="video__image__icon">
+            
+              $ 🔒
+            </div>
+
+            <h2 className="video__image__title">{item.name}</h2>
             </div>
           ))
           

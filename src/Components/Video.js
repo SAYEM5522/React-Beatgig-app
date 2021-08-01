@@ -7,7 +7,7 @@ const data=[
   {
       id:'1',
       img:"https://res.cloudinary.com/dn29xlaeh/image/upload/q_75,w_300/v1/beatgig-updated/irojobcsusv5hxgdq5ai",
-      name:'Key Glock'
+      name:'SAINt JHN'
   },
   {
     id:'2',
@@ -17,7 +17,7 @@ const data=[
 {
   id:'3',
   img:"https://res.cloudinary.com/dn29xlaeh/image/upload/q_75,w_300/v1/beatgig-prod/bblld9gmkgm1xrpuobqd",
-  name:'Key Glock'
+  name:'The Band Camino'
 },
 {
   id:'4',

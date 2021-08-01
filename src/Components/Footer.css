@@ -1,0 +1,15 @@
+.footer {
+  height: 270px;
+  width: "100%";
+  background-color: #1f2023;
+  margin-top: 30px;
+}
+.footer__image {
+  width: 160px;
+  height: 38px;
+  margin-left: 17px;
+  resize: cover;
+  cursor: pointer;
+  margin-left: 95px;
+  margin-top: 60px;
+}

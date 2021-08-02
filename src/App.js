@@ -9,6 +9,7 @@ import {
   Route,
 } from "react-router-dom";
 import Artist from './Components/Artist';
+import MessageIcon from './Components/MessageIcon';
 function App() {
   return (
     <Router>
@@ -18,11 +19,13 @@ function App() {
       <Switch>
       <Route exact path="/">
       <Banner/>
+      <MessageIcon/>
       <VideoRow/>
       <Footer/>
       </Route>
       <Route path="/Artist">
             <Artist/>
+            <MessageIcon/>
       </Route>
     </Switch>
     

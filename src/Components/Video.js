@@ -11,7 +11,7 @@ const data=[
   },
   {
     id:'2',
-    img:"https://res.cloudinary.com/dn29xlaeh/image/upload/q_75,w_300/v1/beatgig-updated/BB1V3SRieHxOtocB6rNK75pUF0cXvz",
+    img:"https://res.cloudinary.com/dn29xlaeh/image/upload/q_75,w_300/v1/beatgig-updated/eie3qfnvd7bxzlejbytz",
     name:'Key Glock'
 },
 {
@@ -21,7 +21,7 @@ const data=[
 },
 {
   id:'4',
-  img:"https://res.cloudinary.com/dn29xlaeh/image/upload/q_75,w_300/v1/beatgig-updated/BEySRdJ9NZIWEDP74JNj7Jw58Zegkl",
+  img:"https://res.cloudinary.com/dn29xlaeh/image/upload/q_75,w_300/v1/beatgig-updated/eexyxfk0deprtvhwwfo2",
   name:'Key Glock'
 },
 {

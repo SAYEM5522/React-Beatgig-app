@@ -8,7 +8,7 @@
 }
 .video__image {
   height: 360px;
-  width: 260px;
+  width: 265px;
   object-fit: cover;
   transition: transform 0.4s;
   border-radius: 15px;
@@ -28,7 +28,7 @@
 }
 .video__poster {
   height: 360px;
-  width: 260px;
+  width: 265px;
   padding: 5px 3px;
   position: relative;
 }

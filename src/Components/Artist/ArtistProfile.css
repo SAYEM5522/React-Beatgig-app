@@ -13,11 +13,11 @@
   border-radius: 100px;
 }
 .artistprofile__middle {
-  margin-left: 30px;
-  width: 300px;
+  margin-left: 25px;
+  width: 540px;
 }
 .artistprofile__name {
-  font: 35px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+  font: 38px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif;
   color: white;
   font-weight: bold;
@@ -33,4 +33,25 @@
     Arial, sans-serif;
   color: white;
   font-weight: 500;
+}
+.artistprofile__right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+.artistprofile__right > h2 {
+  padding: 7px 30px;
+  color: black;
+  background-color: rgb(255, 245, 0);
+  border-radius: 20px;
+  font-family: CircularStd-Bold, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+.artistprofile__right__icon {
+  position: absolute;
+  margin-left: -40px;
+  margin-top: -8px;
 }

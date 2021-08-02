@@ -1,5 +1,7 @@
 import React from 'react'
 import "./ArtistProfile.css"
+import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
+
 const ArtistProfile = () => {
   return (
     <div className="artistprofile">
@@ -15,7 +17,8 @@ const ArtistProfile = () => {
         <h2 className="artistprofile__type">Memphis, TN·Rock</h2>
     </div>
     <div className="artistprofile__right">
-
+      <FavoriteBorderIcon className="artistprofile__right__icon"/>
+      <h2>Book</h2>
     </div>
     </div>
   )
